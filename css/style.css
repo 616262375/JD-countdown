@@ -1,0 +1,263 @@
+body, html, h1, h2, h3, h4, h5, h6,ul, li, a, img, p, div, span, i {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Microsoft YaHei UI ";
+    background-color: #f0f3ef;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+img {
+    border: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.main {
+    width: 990px;
+    height: 375px;
+    background-color: #f0f3ef;
+    margin: 0 auto;
+}
+
+.left, .center {
+    float: left;
+    width: 291px;
+    height: 375px;
+    background-color: #ffffff;
+    margin-right: 8px;
+    padding: 0 16px 0 16px;
+}
+
+.center_bd {
+    position: relative;
+}
+
+.right {
+    position: relative;
+    float: left;
+    width: 328px;
+    height: 375px;
+}
+
+.left_hd {
+    width: 291px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.left_hd_tit {
+    float: left;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000;
+}
+
+.left_hd_icon {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin: 0 6px 0 7px;
+    line-height: 23px;
+    vertical-align: middle;
+    background: url(../img/left_icon.png)
+}
+
+
+
+.left_hd_subtit, .center_hd_subtit {
+    font-size: 14px;
+    color: #999999;
+    line-height: 50px;
+}
+
+.left_large {
+    float: left;
+    width: 290px;
+    height: 150px;
+    background: url(../img/left_large.jpg) no-repeat;
+}
+
+.left_middle1, .left_middle2  {
+    float: left;
+    width: 140px;
+    height: 150px;
+}
+.left_middle1 {
+    margin: 10px 10px 15px 0;
+    background: url(../img/left_middle1.jpg) no-repeat;
+}
+
+.left_middle2 {
+    margin: 10px 0 15px 0;
+    background: url(../img/left_middle2.jpg) no-repeat;
+}
+
+.center_hd {
+    width: 391px;
+    height: 50px;
+}
+
+.center_tit {
+    font-size: 20px;
+    color: #000;
+    line-height: 50px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.center_hd_icon {
+    margin: 0 10px;
+    vertical-align: 5px;
+}
+
+.center_bd  {
+    width: 291px;
+    height: 280px;
+}
+
+.center_top_wrapper, .center_bottom_wrapper{
+    background: url(../img/center_top.png) no-repeat;
+    width: 291px;
+    height: 150px;
+}
+
+.center_top_wrapper {
+    margin: 0 0 10px 0;
+}
+
+.center_bottom_wrapper {
+    margin: 0 0 18px 0;
+}
+
+.center_bd_left {
+    float: left;
+    width: 95px;
+    height: 150px;
+}
+
+.center_bd_left  p{
+    font-weight: bold;
+    color: #fff;
+    font-size: 12px;
+    padding: 36px 11px 6px 11px
+}
+
+.center_bd_left span {
+    display: inline-block;
+    width: 48px;
+    font-size: 9px;
+    margin: 0 36px 0 11px;
+    color: #fff;
+    background-color: #e4393c;
+    border: 1px solid #e4393c;
+}
+
+.center_bd_left i {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    background-color: #fff;
+    color: #e4393c;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.center_bd_left div{
+    padding: 23px 12px 31px 11px;
+    font-size: 11px;
+    color: #fff;
+}
+
+.center_bd_list {
+    float: left;
+    width: 180px;
+    height: 97px;
+    margin: 35px 0 18px 16px;
+}
+
+.center_bd_list_left,.center_bd_list_right {
+    float: left;
+    width: 90px;
+    height: 97px;
+}
+
+.center_bd_list_left .img {
+    width: 77px;
+    height: 77px;
+    margin: 0 0 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px #fff;
+    box-sizing: content-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.center_bd_list_left p, .center_bd_list_right p{
+    width: 90px;
+    height: 10px;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.center_bd_list_right .img {
+    width: 77px;
+    height: 77px;
+    margin: 0 3px 5px 5px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px #fff;
+    box-sizing: content-box;
+}
+
+.left_link:before {
+    content: "";
+    display: block;
+    width: 288px;
+    height: 335px;
+    border: 5px solid #000;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.right_img {
+    width: 298px;
+    height: 345px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 1;
+}
+
+.right:hover .right_img img {
+ transition: opacity ease 0.2s ;
+}
